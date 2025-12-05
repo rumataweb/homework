@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+}
+
+
+.weekend {
+    color: red;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+table, caption, th {
+    border: 1px solid #000000;
+}
+
+caption {
+    border-bottom: none;
+    font-weight: 700;
+}
+
+.day {
+    font-weight: 700;
+}
+
+.number {
+    font-weight: 400;
+}
