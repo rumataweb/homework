@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Форма регистрации</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <form class="form">
+      <fieldset class="form-group">
+        <legend class="form-group-title">Зарегистрироваться</legend>
+        <label for="name" class="label">Имя</label>
+        <input
+          id="name"
+          class="input"
+          type="text"
+          placeholder="Ваше имя"
+          name="name"
+          required
+        />
+        <label for="email" class="label">Почта</label>
+        <input
+          id="email"
+          class="input"
+          type="email"
+          placeholder="Ваша почта"
+          name="email"
+          required
+        />
+        <label for="phone" class="label">Номер</label>
+        <input
+          id="phone"
+          class="input"
+          type="tel"
+          placeholder="Ваш номер"
+          name="phone"
+          required
+        />
+        <label for="pwd" class="label">Пароль</label>
+        <input
+          id="password"
+          class="input"
+          type="password"
+          placeholder="От 4 до 8 символов"
+          name="password"
+          minlength="4"
+          maxlength="8"
+          required
+        />
+      </fieldset>
+      <fieldset class="form-group form2">
+        <label class="label checkbox-label"></label>
+        <input class="checkbox" type="checkbox" name="checkbox" required>
+        <span class="checkbox-text">Я принимаю правила</span>
+      </fieldset>
+      <button class="button">Регистрация</button>
+    </form>
+  </body>
+</html>
